@@ -3,6 +3,8 @@ package com.li.edu;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @Author: 一条IT
@@ -10,6 +12,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"com.li"})
+@EnableSwagger2
 public class TeacherMain {
 
     public static void main(String[] args) {
