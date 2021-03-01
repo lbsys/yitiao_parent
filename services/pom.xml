@@ -22,6 +22,13 @@
             <artifactId>service_base</artifactId>
         </dependency>
 
+
+        <dependency>
+            <groupId>com.li</groupId>
+            <artifactId>common_utils</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
         <!--<dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>

@@ -19,12 +19,12 @@ public class EduConfig {
         return new LogicSqlInjector();
     }
 
-//    /**
-//     * 分页插件
-//     */
-//    @Bean
-//    public PaginationInterceptor paginationInterceptor() {
-//        return new PaginationInterceptor();
-//    }
+    /**
+     * 分页插件
+     */
+    @Bean
+    public PaginationInterceptor paginationInterceptor() {
+        return new PaginationInterceptor();
+    }
 
 }
