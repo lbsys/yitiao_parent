@@ -1,4 +1,4 @@
-2021-03-03 21:06:01.423 [main] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+2021-03-09 10:47:26.249 [main] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -19,11 +19,11 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.afterPropertiesSet(MybatisSqlSessionFactoryBean.java:386)
 	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.getObject(MybatisSqlSessionFactoryBean.java:683)
 	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration.sqlSessionFactory(MybatisPlusAutoConfiguration.java:165)
-	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$3c2ad32f.CGLIB$sqlSessionFactory$0(<generated>)
-	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$3c2ad32f$$FastClassBySpringCGLIB$$db1657c6.invoke(<generated>)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$7410c4cc.CGLIB$sqlSessionFactory$0(<generated>)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$7410c4cc$$FastClassBySpringCGLIB$$bfee6751.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
-	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$3c2ad32f.sqlSessionFactory(<generated>)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$7410c4cc.sqlSessionFactory(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -114,7 +114,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
 	... 84 common frames omitted
-2021-03-03 21:06:01.489 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+2021-03-09 10:47:26.296 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
 org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teacherController': Unsatisfied dependency expressed through field 'TeacherService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teacherServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teacherMapper' defined in file [D:\libetter\advance\yitiao_parent\services\service_edu\target\classes\com\li\edu\mapper\TeacherMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: GlobalConfigUtils setMetaData Fail !  Cause:com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -204,14 +204,121 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.afterPropertiesSet(MybatisSqlSessionFactoryBean.java:386)
 	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.getObject(MybatisSqlSessionFactoryBean.java:683)
 	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration.sqlSessionFactory(MybatisPlusAutoConfiguration.java:165)
-	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$3c2ad32f.CGLIB$sqlSessionFactory$0(<generated>)
-	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$3c2ad32f$$FastClassBySpringCGLIB$$db1657c6.invoke(<generated>)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$7410c4cc.CGLIB$sqlSessionFactory$0(<generated>)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$7410c4cc$$FastClassBySpringCGLIB$$bfee6751.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
-	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$3c2ad32f.sqlSessionFactory(<generated>)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$7410c4cc.sqlSessionFactory(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:497)
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
 	... 57 common frames omitted
+2021-03-09 18:28:03.453 [http-nio-8001-exec-3] ERROR com.li.yitiao.exception.GlobalExceptionHandler - JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2021-03-09T10:27:32.284Z": not a valid representation (error: Failed to parse Date value '2021-03-09T10:27:32.284Z': Unparseable date: "2021-03-09T10:27:32.284Z"); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2021-03-09T10:27:32.284Z": not a valid representation (error: Failed to parse Date value '2021-03-09T10:27:32.284Z': Unparseable date: "2021-03-09T10:27:32.284Z")
+ at [Source: (PushbackInputStream); line: 4, column: 16] (through reference chain: com.li.edu.entity.Teacher["gmtCreate"])
+2021-03-09 18:38:56.190 [http-nio-8001-exec-1] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( name, intro, career, level, avatar, sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+; Field 'id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'id' doesn't have a default value
+2021-03-09 18:39:08.101 [http-nio-8001-exec-3] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( name, intro, career, level, avatar, sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+; Field 'id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'id' doesn't have a default value
+2021-03-09 18:39:23.580 [http-nio-8001-exec-5] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( name, intro, career, level, avatar, sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+; Field 'id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'id' doesn't have a default value
+2021-03-09 18:41:50.778 [http-nio-8001-exec-7] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( name, intro, career, level, avatar, sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+; Field 'id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'id' doesn't have a default value
+2021-03-09 19:05:09.754 [http-nio-8001-exec-4] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qfw' for key 'uk_name'
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level, avatar, sort,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?,  ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qfw' for key 'uk_name'
+; Duplicate entry 'qfw' for key 'uk_name'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qfw' for key 'uk_name'
+2021-03-09 20:49:28.765 [http-nio-8001-exec-10] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1369244818711965698' for key 'PRIMARY'
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level, avatar, sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1369244818711965698' for key 'PRIMARY'
+; Duplicate entry '1369244818711965698' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1369244818711965698' for key 'PRIMARY'
+2021-03-09 21:29:49.125 [http-nio-8001-exec-7] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level, avatar, sort,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?,  ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+; Duplicate entry '' for key 'uk_name'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+2021-03-09 21:29:52.123 [http-nio-8001-exec-6] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level, avatar, sort,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?,  ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+; Duplicate entry '' for key 'uk_name'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+2021-03-09 21:29:54.017 [http-nio-8001-exec-8] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level, avatar, sort,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?,  ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+; Duplicate entry '' for key 'uk_name'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+2021-03-09 21:29:54.905 [http-nio-8001-exec-9] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level, avatar, sort,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?,  ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+; Duplicate entry '' for key 'uk_name'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+2021-03-09 21:30:20.579 [http-nio-8001-exec-9] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level, avatar, sort,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?,  ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+; Duplicate entry '' for key 'uk_name'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+2021-03-09 21:30:29.836 [http-nio-8001-exec-3] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level, avatar, sort,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?,  ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+; Duplicate entry '' for key 'uk_name'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+2021-03-09 21:32:40.913 [http-nio-8001-exec-1] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level, avatar, sort,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?,  ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+; Duplicate entry '' for key 'uk_name'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'uk_name'
+2021-03-09 21:45:16.125 [http-nio-8001-exec-8] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id,        gmt_create, gmt_modified )  VALUES  ( ?,        ?, ? )
+### Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+; Field 'name' doesn't have a default value; nested exception is java.sql.SQLException: Field 'name' doesn't have a default value
+2021-03-09 21:45:38.822 [http-nio-8001-exec-3] ERROR com.li.yitiao.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+### The error may involve com.li.edu.mapper.TeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id,        gmt_create, gmt_modified )  VALUES  ( ?,        ?, ? )
+### Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+; Field 'name' doesn't have a default value; nested exception is java.sql.SQLException: Field 'name' doesn't have a default value

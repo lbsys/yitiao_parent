@@ -38,14 +38,14 @@ public class TeacherController {
     }
 
 //    id查询
-    @GetMapping("/findid{id}")
+    @GetMapping("/findid/{id}")
     public CommonResult selectById(@PathVariable String id){
 //      异常测试
-        try {
-            int i=10/0;
-        }catch (Exception e){
-            throw new CustomException(20001,"自定义异常");
-        }
+//        try {
+//            int i=10/0;
+//        }catch (Exception e){
+//            throw new CustomException(20001,"自定义异常");
+//        }
 
         Teacher teacher = TeacherService.getById(id);
         HashMap<String, Object> map = new HashMap<>();
@@ -94,6 +94,7 @@ public class TeacherController {
         if (!StringUtils.isEmpty(end)) {
             wrapper.le("gmt_modified", end);
         }
+        wrapper.orderByDesc("gmt_create");
         TeacherService.page(page, wrapper);
         long total = page.getTotal();
         List<Teacher> records = page.getRecords();

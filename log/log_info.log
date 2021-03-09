@@ -1,93 +1,174 @@
-2021-03-03 21:05:53.714 [main] INFO  com.li.edu.TeacherMain - Starting TeacherMain on L with PID 6540 (D:\libetter\advance\yitiao_parent\services\service_edu\target\classes started by libetter in D:\libetter\advance\yitiao_parent)
-2021-03-03 21:05:53.729 [main] INFO  com.li.edu.TeacherMain - The following profiles are active: dev
-2021-03-03 21:05:56.153 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-03-03 21:05:56.574 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
-2021-03-03 21:05:56.587 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-03-03 21:05:56.589 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-03-03 21:05:56.589 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-03-03 21:05:56.591 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
-2021-03-03 21:05:56.591 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2021-03-03 21:05:56.592 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2021-03-03 21:05:56.604 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
-2021-03-03 21:05:56.968 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-03-03 21:05:56.969 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3112 ms
-2021-03-03 21:05:57.242 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-03-03 21:06:01.447 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-03-03 21:06:01.474 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+2021-03-09 10:47:18.899 [main] INFO  com.li.edu.TeacherMain - Starting TeacherMain on L with PID 2612 (D:\libetter\advance\yitiao_parent\services\service_edu\target\classes started by libetter in D:\libetter\advance\yitiao_parent)
+2021-03-09 10:47:18.911 [main] INFO  com.li.edu.TeacherMain - The following profiles are active: dev
+2021-03-09 10:47:21.018 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-09 10:47:21.416 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-03-09 10:47:21.430 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-03-09 10:47:21.431 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-09 10:47:21.432 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-09 10:47:21.436 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-03-09 10:47:21.436 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-09 10:47:21.438 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-09 10:47:21.451 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-03-09 10:47:21.803 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-09 10:47:21.804 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2759 ms
+2021-03-09 10:47:22.080 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-03-09 10:47:26.263 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-03-09 10:47:26.281 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-03-03 21:07:42.234 [main] INFO  com.li.edu.TeacherMain - Starting TeacherMain on L with PID 2340 (D:\libetter\advance\yitiao_parent\services\service_edu\target\classes started by libetter in D:\libetter\advance\yitiao_parent)
-2021-03-03 21:07:42.243 [main] INFO  com.li.edu.TeacherMain - The following profiles are active: dev
-2021-03-03 21:07:44.482 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-03-03 21:07:44.876 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
-2021-03-03 21:07:44.893 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-03-03 21:07:44.893 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-03-03 21:07:44.895 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-03-03 21:07:44.897 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
-2021-03-03 21:07:44.898 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2021-03-03 21:07:44.898 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2021-03-03 21:07:44.909 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
-2021-03-03 21:07:45.371 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-03-03 21:07:45.371 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3027 ms
-2021-03-03 21:07:45.788 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-03-03 21:07:46.469 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-03-03 21:07:47.433 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-03-03 21:07:47.567 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-03-03 21:07:47.881 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-03-03 21:07:47.909 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-03-03 21:07:47.985 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-03-03 21:07:48.269 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-03-03 21:07:48.308 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
-2021-03-03 21:07:48.312 [main] INFO  com.li.edu.TeacherMain - Started TeacherMain in 7.219 seconds (JVM running for 10.464)
-2021-03-03 21:18:13.452 [main] INFO  com.li.edu.TeacherMain - Starting TeacherMain on L with PID 1476 (D:\libetter\advance\yitiao_parent\services\service_edu\target\classes started by libetter in D:\libetter\advance\yitiao_parent)
-2021-03-03 21:18:13.457 [main] INFO  com.li.edu.TeacherMain - The following profiles are active: dev
-2021-03-03 21:18:14.782 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-03-03 21:18:15.058 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
-2021-03-03 21:18:15.067 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-03-03 21:18:15.068 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-03-03 21:18:15.068 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-03-03 21:18:15.070 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
-2021-03-03 21:18:15.070 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2021-03-03 21:18:15.071 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2021-03-03 21:18:15.075 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
-2021-03-03 21:18:15.317 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-03-03 21:18:15.317 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1769 ms
-2021-03-03 21:18:15.505 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-03-03 21:18:15.866 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-03-03 21:18:16.396 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-03-03 21:18:16.481 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-03-03 21:18:16.668 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-03-03 21:18:16.699 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-03-03 21:18:16.740 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-03-03 21:18:16.942 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-03-03 21:18:16.971 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
-2021-03-03 21:18:16.974 [main] INFO  com.li.edu.TeacherMain - Started TeacherMain in 4.197 seconds (JVM running for 6.333)
-2021-03-03 21:18:51.257 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-03-03 21:18:51.258 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-03-03 21:18:51.263 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
-2021-03-03 22:56:02.404 [main] INFO  com.li.edu.TeacherMain - Starting TeacherMain on L with PID 17248 (D:\libetter\advance\yitiao_parent\services\service_edu\target\classes started by libetter in D:\libetter\advance\yitiao_parent)
-2021-03-03 22:56:02.412 [main] INFO  com.li.edu.TeacherMain - The following profiles are active: dev
-2021-03-03 22:56:04.228 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-03-03 22:56:04.593 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
-2021-03-03 22:56:04.605 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-03-03 22:56:04.606 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-03-03 22:56:04.606 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-03-03 22:56:04.608 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
-2021-03-03 22:56:04.611 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2021-03-03 22:56:04.611 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2021-03-03 22:56:04.616 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
-2021-03-03 22:56:05.031 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-03-03 22:56:05.032 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2550 ms
-2021-03-03 22:56:05.420 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-03-03 22:56:06.017 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-03-03 22:56:06.802 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-03-03 22:56:06.922 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-03-03 22:56:07.190 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-03-03 22:56:07.214 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-03-03 22:56:07.278 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-03-03 22:56:07.567 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-03-03 22:56:07.609 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
-2021-03-03 22:56:07.613 [main] INFO  com.li.edu.TeacherMain - Started TeacherMain in 6.106 seconds (JVM running for 8.945)
-2021-03-03 22:57:05.925 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-03-03 22:57:05.926 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-03-03 22:57:05.934 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-03-09 10:49:02.101 [main] INFO  com.li.edu.TeacherMain - Starting TeacherMain on L with PID 11216 (D:\libetter\advance\yitiao_parent\services\service_edu\target\classes started by libetter in D:\libetter\advance\yitiao_parent)
+2021-03-09 10:49:02.109 [main] INFO  com.li.edu.TeacherMain - The following profiles are active: dev
+2021-03-09 10:49:03.758 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-09 10:49:04.102 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-03-09 10:49:04.115 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-03-09 10:49:04.116 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-09 10:49:04.116 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-09 10:49:04.118 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-03-09 10:49:04.119 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-09 10:49:04.119 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-09 10:49:04.124 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-03-09 10:49:04.467 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-09 10:49:04.467 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2282 ms
+2021-03-09 10:49:04.718 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-03-09 10:49:05.229 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-03-09 10:49:05.892 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-09 10:49:05.986 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-09 10:49:06.230 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-03-09 10:49:06.252 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-03-09 10:49:06.301 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-03-09 10:49:06.552 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-03-09 10:49:06.587 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-03-09 10:49:06.591 [main] INFO  com.li.edu.TeacherMain - Started TeacherMain in 5.26 seconds (JVM running for 6.827)
+2021-03-09 10:49:06.672 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-09 10:49:06.672 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-09 10:49:06.683 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2021-03-09 18:25:32.241 [main] INFO  com.li.edu.TeacherMain - Starting TeacherMain on L with PID 17244 (D:\libetter\advance\yitiao_parent\services\service_edu\target\classes started by libetter in D:\libetter\advance\yitiao_parent)
+2021-03-09 18:25:32.247 [main] INFO  com.li.edu.TeacherMain - The following profiles are active: dev
+2021-03-09 18:25:33.696 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-09 18:25:33.972 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-03-09 18:25:33.982 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-03-09 18:25:33.983 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-09 18:25:33.983 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-09 18:25:33.985 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-03-09 18:25:33.985 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-09 18:25:33.986 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-09 18:25:34.002 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-03-09 18:25:34.239 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-09 18:25:34.239 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1929 ms
+2021-03-09 18:25:34.476 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-03-09 18:25:34.936 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-03-09 18:25:35.481 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-09 18:25:35.570 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-09 18:25:35.799 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-03-09 18:25:35.824 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-03-09 18:25:35.870 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-03-09 18:25:36.093 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-03-09 18:25:36.129 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-03-09 18:25:36.132 [main] INFO  com.li.edu.TeacherMain - Started TeacherMain in 4.661 seconds (JVM running for 6.401)
+2021-03-09 18:27:31.687 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-09 18:27:31.687 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-09 18:27:31.696 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-03-09 18:37:58.850 [main] INFO  com.li.edu.TeacherMain - Starting TeacherMain on L with PID 3144 (D:\libetter\advance\yitiao_parent\services\service_edu\target\classes started by libetter in D:\libetter\advance\yitiao_parent)
+2021-03-09 18:37:58.854 [main] INFO  com.li.edu.TeacherMain - The following profiles are active: dev
+2021-03-09 18:38:00.024 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-09 18:38:00.283 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-03-09 18:38:00.291 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-03-09 18:38:00.292 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-09 18:38:00.293 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-09 18:38:00.297 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-03-09 18:38:00.298 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-09 18:38:00.298 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-09 18:38:00.303 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-03-09 18:38:00.504 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-09 18:38:00.504 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1582 ms
+2021-03-09 18:38:00.704 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-03-09 18:38:01.039 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-03-09 18:38:01.471 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-09 18:38:01.545 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-09 18:38:01.725 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-03-09 18:38:01.750 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-03-09 18:38:01.796 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-03-09 18:38:01.982 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-03-09 18:38:02.011 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-03-09 18:38:02.015 [main] INFO  com.li.edu.TeacherMain - Started TeacherMain in 3.69 seconds (JVM running for 4.976)
+2021-03-09 18:38:56.007 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-09 18:38:56.008 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-09 18:38:56.013 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-03-09 18:48:31.403 [main] INFO  com.li.edu.TeacherMain - Starting TeacherMain on L with PID 14864 (D:\libetter\advance\yitiao_parent\services\service_edu\target\classes started by libetter in D:\libetter\advance\yitiao_parent)
+2021-03-09 18:48:31.407 [main] INFO  com.li.edu.TeacherMain - The following profiles are active: dev
+2021-03-09 18:48:32.693 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-09 18:48:32.917 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-03-09 18:48:32.927 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-03-09 18:48:32.927 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-09 18:48:32.928 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-09 18:48:32.929 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-03-09 18:48:32.930 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-09 18:48:32.930 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-09 18:48:32.933 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-03-09 18:48:33.130 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-09 18:48:33.131 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1662 ms
+2021-03-09 18:48:33.331 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-03-09 18:48:33.661 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-03-09 18:48:34.085 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-09 18:48:34.170 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-09 18:48:34.349 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-03-09 18:48:34.373 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-03-09 18:48:34.408 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-03-09 18:48:34.616 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-03-09 18:48:34.650 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-03-09 18:48:34.654 [main] INFO  com.li.edu.TeacherMain - Started TeacherMain in 3.893 seconds (JVM running for 5.302)
+2021-03-09 18:49:06.706 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-09 18:49:06.706 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-09 18:49:06.711 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-03-09 19:34:35.742 [main] INFO  com.li.edu.TeacherMain - Starting TeacherMain on L with PID 10176 (D:\libetter\advance\yitiao_parent\services\service_edu\target\classes started by libetter in D:\libetter\advance\yitiao_parent)
+2021-03-09 19:34:35.745 [main] INFO  com.li.edu.TeacherMain - The following profiles are active: dev
+2021-03-09 19:34:36.993 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-09 19:34:37.242 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-03-09 19:34:37.253 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-03-09 19:34:37.254 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-09 19:34:37.254 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-09 19:34:37.256 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-03-09 19:34:37.257 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-09 19:34:37.257 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-09 19:34:37.261 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-03-09 19:34:37.469 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-09 19:34:37.469 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1688 ms
+2021-03-09 19:34:37.664 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-03-09 19:34:38.038 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-03-09 19:34:38.513 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-09 19:34:38.595 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-09 19:34:38.803 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-03-09 19:34:38.823 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-03-09 19:34:38.869 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-03-09 19:34:39.051 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-03-09 19:34:39.081 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-03-09 19:34:39.083 [main] INFO  com.li.edu.TeacherMain - Started TeacherMain in 3.889 seconds (JVM running for 5.228)
+2021-03-09 19:36:51.085 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-09 19:36:51.085 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-09 19:36:51.091 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-03-09 20:30:55.903 [main] INFO  com.li.edu.TeacherMain - Starting TeacherMain on L with PID 1768 (D:\libetter\advance\yitiao_parent\services\service_edu\target\classes started by libetter in D:\libetter\advance\yitiao_parent)
+2021-03-09 20:30:55.905 [main] INFO  com.li.edu.TeacherMain - The following profiles are active: dev
+2021-03-09 20:30:57.283 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-09 20:30:57.553 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-03-09 20:30:57.566 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-03-09 20:30:57.568 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-09 20:30:57.569 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-09 20:30:57.570 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-03-09 20:30:57.571 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-09 20:30:57.571 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-09 20:30:57.579 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-03-09 20:30:57.833 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-09 20:30:57.834 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1883 ms
+2021-03-09 20:30:58.052 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-03-09 20:30:58.442 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-03-09 20:30:58.996 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-09 20:30:59.075 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-09 20:30:59.301 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-03-09 20:30:59.321 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-03-09 20:30:59.372 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-03-09 20:30:59.610 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-03-09 20:30:59.652 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-03-09 20:30:59.655 [main] INFO  com.li.edu.TeacherMain - Started TeacherMain in 4.34 seconds (JVM running for 5.822)
+2021-03-09 20:31:12.238 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-09 20:31:12.238 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-09 20:31:12.243 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
