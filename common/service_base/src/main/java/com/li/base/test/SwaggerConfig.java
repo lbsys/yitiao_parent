@@ -1,4 +1,4 @@
-package com.li.base;
+package com.li.base.test;
 
 import com.google.common.base.Predicates;
 import org.springframework.context.annotation.Bean;

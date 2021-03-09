@@ -1,4 +1,4 @@
-package com.li.yitiao;
+package com.li.yitiao.result;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

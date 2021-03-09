@@ -1,4 +1,4 @@
-package com.li.yitiao;
+package com.li.yitiao.result;
 
 public interface ResultCode {
 
