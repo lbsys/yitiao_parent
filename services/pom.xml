@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>service_edu</module>
+        <module>service_oss</module>
     </modules>
 
     <dependencies>
@@ -20,12 +21,15 @@
         <dependency>
             <groupId>com.li</groupId>
             <artifactId>service_base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+
         </dependency>
 
 
         <dependency>
             <groupId>com.li</groupId>
             <artifactId>common_utils</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <!--<dependency>
